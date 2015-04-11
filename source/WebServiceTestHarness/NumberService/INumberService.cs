@@ -7,8 +7,9 @@ using System.ServiceModel.Web;
 using System.Text;
 
 namespace NumberService
-{
-    [ServiceContract]
+{    
+
+    [ServiceContract(Namespace = WebServiceConstants.CodeCowboyXmlNamespace)]
     public interface INumberService
     {
 
